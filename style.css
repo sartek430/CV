@@ -109,5 +109,10 @@ header .button:hover a {
   background: linear-gradient(128deg,#4e64be 0%, transparent 99%);
   background: -webkit-linear-gradient(128deg,#4e64be 0%, transparent 99%);
   background: -moz-linear-gradient(128deg,#4e64be 0%, transparent 99%);
-  clip-path: polygon(0 0, 100% 0%, 75% 85%, 0% 85%);
+  clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
+}
+
+#langages .bar {
+  padding : 10px 0 4px 0;
+  letter-spacing: 0.1em;
 }
