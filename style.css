@@ -106,13 +106,26 @@ header .button:hover a {
   width: 47%;
   max-width: 640px;
   background: #4e64be;
-  background: linear-gradient(128deg,#4e64be 0%, transparent 99%);
-  background: -webkit-linear-gradient(128deg,#4e64be 0%, transparent 99%);
-  background: -moz-linear-gradient(128deg,#4e64be 0%, transparent 99%);
+  background: linear-gradient(128deg, #4e64be 0%, transparent 99%);
+  background: -webkit-linear-gradient(128deg, #4e64be 0%, transparent 99%);
+  background: -moz-linear-gradient(128deg, #4e64be 0%, transparent 99%);
   clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
 }
 
 #langages .bar {
-  padding : 10px 0 4px 0;
+  padding: 10px 0 4px 0;
   letter-spacing: 0.1em;
+}
+/* **************************** FORMATION ****************************** */
+
+#formation {
+  position: relative;
+  top: -200px;
+  float: right;
+  margin-right: 5%;
+  padding: 110px 0 60px 50px;
+  width: 45%;
+  max-width: 660px;
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0 91%);
+  background: linear-gradient(19deg, rgba(0, 180, 219, 0.69) 0%, #0083b0 80%);
 }
