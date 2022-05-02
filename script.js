@@ -36,9 +36,10 @@ $(window).scroll(function () {
         countTo = $this.attr("data-count");
       $({
         countNum: $this.text(),
-      }).animate({
-        countNum: countTo,
-      }),
+      }).animate(
+        {
+          countNum: countTo,
+        },
         {
           duration: 10000,
           easing: "swing",
@@ -48,7 +49,8 @@ $(window).scroll(function () {
           complete: function () {
             $this.text(this.countNum);
           },
-        };
+        }
+      );
     });
     compteur = 1;
   }
