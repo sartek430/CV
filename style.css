@@ -237,3 +237,8 @@ border-top: none;
   border-right: 3px solid;
   padding-left: 0;
 }
+
+.timeline:nth-child(even){
+  border-left: 3px solid;
+  padding-right: 0;
+}
